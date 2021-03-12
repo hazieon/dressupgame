@@ -3,9 +3,12 @@ let state = {
   hair: 0,
   hat: 0,
   shoes: 0,
-  drop: 0,
+  accessory: 0,
+  face: 0,
 };
-
+nextdress();
+nexthair();
+nextface();
 //function to change dress
 function nextdress() {
   let dress = document.querySelector("#dress");
@@ -26,10 +29,10 @@ function nextdress() {
   //   }
 
   //my refactored version with LESS code and MORE scalability:
-  if (state.dress < 3) {
+  if (state.dress < 7) {
     state.dress++;
     dress.setAttribute("class", `dress${state.dress}`);
-  } else if (state.dress === 3) {
+  } else if (state.dress === 7) {
     state.dress = 0;
     dress.setAttribute("class", `dress${state.dress}`);
   }
@@ -37,20 +40,20 @@ function nextdress() {
 
 function nextshoes() {
   let shoes = document.querySelector("#shoes");
-  if (state.shoes < 2) {
+  if (state.shoes < 3) {
     state.shoes++;
     shoes.setAttribute("class", `shoes${state.shoes}`);
-  } else if (state.shoes === 2) {
+  } else if (state.shoes === 3) {
     state.shoes = 0;
     shoes.setAttribute("class", `shoes${state.shoes}`);
   }
 }
 function nexthair() {
   let hair = document.querySelector("#hair");
-  if (state.hair < 2) {
+  if (state.hair < 5) {
     state.hair++;
     hair.setAttribute("class", `hair${state.hair}`);
-  } else if (state.hair === 2) {
+  } else if (state.hair === 5) {
     state.hair = 0;
     hair.setAttribute("class", `hair${state.hair}`);
   }
@@ -58,12 +61,23 @@ function nexthair() {
 
 function nexthat() {
   let hat = document.querySelector("#hat");
-  if (state.hat < 2) {
+  if (state.hat < 4) {
     state.hat++;
     hat.setAttribute("class", `hat${state.hat}`);
-  } else if (state.hat === 2) {
+  } else if (state.hat === 4) {
     state.hat = 0;
     hat.setAttribute("class", `hat${state.hat}`);
+  }
+}
+
+function nextface() {
+  let face = document.querySelector("#face");
+  if (state.face < 2) {
+    state.face++;
+    face.setAttribute("class", `face${state.face}`);
+  } else if (state.face === 2) {
+    state.face = 0;
+    face.setAttribute("class", `face${state.face}`);
   }
 }
 

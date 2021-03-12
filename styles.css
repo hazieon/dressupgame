@@ -1,5 +1,8 @@
+body {
+  background-color: rgb(73, 75, 184);
+}
 #box {
-  background-color: plum;
+  background-color: rgb(150, 152, 247);
   border-radius: 20px;
   margin: auto;
   text-align: center;
@@ -11,7 +14,7 @@
   top: 2em;
   margin: auto;
   position: relative;
-  background-color: aliceblue;
+  background-color: rgb(246, 240, 255);
   border-radius: 20px;
   height: 700px;
   width: 400px;
@@ -22,23 +25,38 @@
 }
 button {
   margin-top: 2em;
+  margin-right: 0.4em;
   color: black;
-  background-color: aliceblue;
+  background-color: rgb(243, 240, 255);
+  box-shadow: 0px 1px 2px 1px rgb(73, 75, 184);
+  border-radius: 10px;
+  padding: 5px 12px;
+  font-size: larger;
+  transition: 0.2s linear;
+}
+button:hover {
+  margin-top: 2em;
+  color: black;
+  background-color: rgb(248, 252, 255);
+  box-shadow: 0px 2px 4px 1px rgb(73, 75, 184);
   border-radius: 20px;
+  padding: 5px 10px;
   font-size: larger;
 }
+
 #hairback {
   position: absolute;
   height: 700px;
   width: 400px;
 }
 #girl {
-  background-image: url("./images/2.png");
+  background-image: url("./images2/1.png");
   background-repeat: no-repeat;
   background-repeat: no-repeat;
   position: absolute;
   height: 700px;
   width: 400px;
+  z-index: 2;
 }
 #dress {
   background-repeat: no-repeat;
@@ -52,15 +70,27 @@ button {
   height: 700px;
   width: 400px;
 }
-#hairfront {
+#hair {
   background-repeat: no-repeat;
   position: absolute;
   height: 700px;
   width: 400px;
 }
-
+#face {
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+}
+.dress0 {
+  background-image: url("./images2/dress0.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+}
 .dress1 {
-  background-image: url("./images/3.png");
+  background-image: url("./images2/dress1.png");
   background-repeat: no-repeat;
   position: absolute;
   height: 700px;
@@ -69,7 +99,7 @@ button {
 }
 
 .dress2 {
-  background-image: url("./images/4.png");
+  background-image: url("./images2/dress2.png");
   background-repeat: no-repeat;
   position: absolute;
   height: 700px;
@@ -77,7 +107,39 @@ button {
   z-index: 2;
 }
 .dress3 {
-  background-image: url("./images/7.png");
+  background-image: url("./images2/dress3.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+  z-index: 2;
+}
+.dress4 {
+  background-image: url("./images2/dress4.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+  z-index: 2;
+}
+.dress5 {
+  background-image: url("./images2/dress5.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+  z-index: 2;
+}
+.dress6 {
+  background-image: url("./images2/dress6.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+  z-index: 2;
+}
+.dress7 {
+  background-image: url("./images2/dress7.png");
   background-repeat: no-repeat;
   position: absolute;
   height: 700px;
@@ -86,21 +148,29 @@ button {
 }
 
 .shoes1 {
-  background-image: url("./images/5.png");
+  background-image: url("./images2/shoes1.png");
   background-repeat: no-repeat;
   position: absolute;
   height: 700px;
   width: 400px;
 }
 .shoes2 {
-  background-image: url("./images/6.png");
+  background-image: url("./images2/shoes2.png");
   background-repeat: no-repeat;
   position: absolute;
   height: 700px;
   width: 400px;
 }
+.shoes3 {
+  background-image: url("./images2/shoes3.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+}
+
 .hat1 {
-  background-image: url("./images/8.png");
+  background-image: url("./images2/accessory1.png");
   background-repeat: no-repeat;
   position: absolute;
   height: 700px;
@@ -108,7 +178,22 @@ button {
 }
 
 .hat2 {
-  background-image: url("./images/9.png");
+  background-image: url("./images2/accessory2.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+}
+
+.hat3 {
+  background-image: url("./images2/accessory3.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+}
+.hat4 {
+  background-image: url("./images2/accessory4.png");
   background-repeat: no-repeat;
   position: absolute;
   height: 700px;
@@ -116,25 +201,52 @@ button {
 }
 
 .hair1 {
-  background-image: url("./images/10.png");
+  background-image: url("./images2/hair1.png");
   background-repeat: no-repeat;
   position: absolute;
   height: 700px;
   width: 400px;
 }
 .hair2 {
-  background-image: url("./images/11.png");
+  background-image: url("./images2/hair2.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+}
+.hair3 {
+  background-image: url("./images2/hair3.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+}
+.hair4 {
+  background-image: url("./images2/hair4.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+}
+.hair5 {
+  background-image: url("./images2/hair5.png");
   background-repeat: no-repeat;
   position: absolute;
   height: 700px;
   width: 400px;
 }
 
-.drop1 {
-  background-image: url("./images/a.png");
+.face1 {
+  background-image: url("./images2/face1.png");
   background-repeat: no-repeat;
   position: absolute;
   height: 700px;
   width: 400px;
-  z-index: 2;
+}
+.face2 {
+  background-image: url("./images2/face2.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
 }
