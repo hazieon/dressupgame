@@ -1,17 +1,31 @@
 #box {
   background-color: plum;
+  border-radius: 20px;
   margin: auto;
-  height: 700px;
+  text-align: center;
+  height: 800px;
   width: 600px;
 }
 
 #backdrop {
+  top: 2em;
   margin: auto;
   position: relative;
   background-color: aliceblue;
   border-radius: 20px;
   height: 700px;
   width: 400px;
+}
+.buttonBox {
+  position: relative;
+  margin: 1rem;
+}
+button {
+  margin-top: 2em;
+  color: black;
+  background-color: aliceblue;
+  border-radius: 20px;
+  font-size: larger;
 }
 #hairback {
   position: absolute;
