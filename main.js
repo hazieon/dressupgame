@@ -3,12 +3,11 @@ let state = {
   hair: 0,
   hat: 0,
   shoes: 0,
+  drop: 0,
 };
 
 //function to change dress
 function nextdress() {
-  console.log("nextdress triggered");
-  console.log(state.dress);
   let dress = document.querySelector("#dress");
   //code from the tutorial example:
   //   if (state.dress === 0) {
@@ -67,3 +66,18 @@ function nexthat() {
     hat.setAttribute("class", `hat${state.hat}`);
   }
 }
+
+// function nextdrop() {
+//   console.log("drop");
+//   let drop = document.querySelector("#drop");
+//   drop.setAttribute("draggable", true);
+//   if (state.drop < 1) {
+//     state.drop++;
+//     drop.setAttribute("class", `drop${state.drop}`);
+//     console.log("setting", state);
+//   } else if (state.drop === 1) {
+//     state.drop = 0;
+//     drop.setAttribute("class", `drop${state.drop}`);
+//     console.log(state);
+//   }
+// }

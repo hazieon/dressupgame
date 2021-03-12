@@ -115,3 +115,12 @@
   height: 700px;
   width: 400px;
 }
+
+.drop1 {
+  background-image: url("./images/a.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+  z-index: 2;
+}
