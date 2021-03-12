@@ -1,0 +1,117 @@
+#box {
+  background-color: plum;
+  margin: auto;
+  height: 700px;
+  width: 600px;
+}
+
+#backdrop {
+  margin: auto;
+  position: relative;
+  background-color: aliceblue;
+  border-radius: 20px;
+  height: 700px;
+  width: 400px;
+}
+#hairback {
+  position: absolute;
+  height: 700px;
+  width: 400px;
+}
+#girl {
+  background-image: url("./images/2.png");
+  background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+}
+#dress {
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+}
+#shoes {
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+}
+#hairfront {
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+}
+
+.dress1 {
+  background-image: url("./images/3.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+  z-index: 2;
+}
+
+.dress2 {
+  background-image: url("./images/4.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+  z-index: 2;
+}
+.dress3 {
+  background-image: url("./images/7.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+  z-index: 2;
+}
+
+.shoes1 {
+  background-image: url("./images/5.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+}
+.shoes2 {
+  background-image: url("./images/6.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+}
+.hat1 {
+  background-image: url("./images/8.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+}
+
+.hat2 {
+  background-image: url("./images/9.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+}
+
+.hair1 {
+  background-image: url("./images/10.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+}
+.hair2 {
+  background-image: url("./images/11.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+}
