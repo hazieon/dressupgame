@@ -35,13 +35,8 @@ button {
   transition: 0.2s linear;
 }
 button:hover {
-  margin-top: 2em;
-  color: black;
   background-color: rgb(248, 252, 255);
   box-shadow: 0px 2px 4px 1px rgb(73, 75, 184);
-  border-radius: 20px;
-  padding: 5px 10px;
-  font-size: larger;
 }
 
 #hairback {
@@ -50,13 +45,13 @@ button:hover {
   width: 400px;
 }
 #girl {
-  background-image: url("./images2/1.png");
+  background-image: url("./images4/1.png");
   background-repeat: no-repeat;
   background-repeat: no-repeat;
   position: absolute;
   height: 700px;
   width: 400px;
-  z-index: 2;
+  z-index: 1;
 }
 #dress {
   background-repeat: no-repeat;
@@ -75,22 +70,24 @@ button:hover {
   position: absolute;
   height: 700px;
   width: 400px;
+  z-index: 2;
 }
 #face {
   background-repeat: no-repeat;
   position: absolute;
   height: 700px;
   width: 400px;
+  z-index: 6;
 }
 .dress0 {
-  background-image: url("./images2/dress0.png");
+  background-image: url("./images4/dress0.png");
   background-repeat: no-repeat;
   position: absolute;
   height: 700px;
   width: 400px;
 }
 .dress1 {
-  background-image: url("./images2/dress1.png");
+  background-image: url("./images4/dress1.png");
   background-repeat: no-repeat;
   position: absolute;
   height: 700px;
@@ -99,7 +96,7 @@ button:hover {
 }
 
 .dress2 {
-  background-image: url("./images2/dress2.png");
+  background-image: url("./images4/dress2.png");
   background-repeat: no-repeat;
   position: absolute;
   height: 700px;
@@ -107,7 +104,7 @@ button:hover {
   z-index: 2;
 }
 .dress3 {
-  background-image: url("./images2/dress3.png");
+  background-image: url("./images4/dress3.png");
   background-repeat: no-repeat;
   position: absolute;
   height: 700px;
@@ -115,7 +112,7 @@ button:hover {
   z-index: 2;
 }
 .dress4 {
-  background-image: url("./images2/dress4.png");
+  background-image: url("./images4/dress4.png");
   background-repeat: no-repeat;
   position: absolute;
   height: 700px;
@@ -123,7 +120,7 @@ button:hover {
   z-index: 2;
 }
 .dress5 {
-  background-image: url("./images2/dress5.png");
+  background-image: url("./images4/dress5.png");
   background-repeat: no-repeat;
   position: absolute;
   height: 700px;
@@ -131,7 +128,7 @@ button:hover {
   z-index: 2;
 }
 .dress6 {
-  background-image: url("./images2/dress6.png");
+  background-image: url("./images4/dress6.png");
   background-repeat: no-repeat;
   position: absolute;
   height: 700px;
@@ -139,7 +136,7 @@ button:hover {
   z-index: 2;
 }
 .dress7 {
-  background-image: url("./images2/dress7.png");
+  background-image: url("./images4/dress7.png");
   background-repeat: no-repeat;
   position: absolute;
   height: 700px;
@@ -148,21 +145,21 @@ button:hover {
 }
 
 .shoes1 {
-  background-image: url("./images2/shoes1.png");
+  background-image: url("./images4/shoes1.png");
   background-repeat: no-repeat;
   position: absolute;
   height: 700px;
   width: 400px;
 }
 .shoes2 {
-  background-image: url("./images2/shoes2.png");
+  background-image: url("./images4/shoes2.png");
   background-repeat: no-repeat;
   position: absolute;
   height: 700px;
   width: 400px;
 }
 .shoes3 {
-  background-image: url("./images2/shoes3.png");
+  background-image: url("./images4/shoes3.png");
   background-repeat: no-repeat;
   position: absolute;
   height: 700px;
@@ -170,7 +167,7 @@ button:hover {
 }
 
 .hat1 {
-  background-image: url("./images2/accessory1.png");
+  background-image: url("./images4/accessory1.png");
   background-repeat: no-repeat;
   position: absolute;
   height: 700px;
@@ -178,7 +175,7 @@ button:hover {
 }
 
 .hat2 {
-  background-image: url("./images2/accessory2.png");
+  background-image: url("./images4/accessory2.png");
   background-repeat: no-repeat;
   position: absolute;
   height: 700px;
@@ -186,14 +183,14 @@ button:hover {
 }
 
 .hat3 {
-  background-image: url("./images2/accessory3.png");
+  background-image: url("./images4/accessory3.png");
   background-repeat: no-repeat;
   position: absolute;
   height: 700px;
   width: 400px;
 }
 .hat4 {
-  background-image: url("./images2/accessory4.png");
+  background-image: url("./images4/accessory4.png");
   background-repeat: no-repeat;
   position: absolute;
   height: 700px;
@@ -201,35 +198,35 @@ button:hover {
 }
 
 .hair1 {
-  background-image: url("./images2/hair1.png");
+  background-image: url("./images4/hair1.png");
   background-repeat: no-repeat;
   position: absolute;
   height: 700px;
   width: 400px;
 }
 .hair2 {
-  background-image: url("./images2/hair2.png");
+  background-image: url("./images4/hair2.png");
   background-repeat: no-repeat;
   position: absolute;
   height: 700px;
   width: 400px;
 }
 .hair3 {
-  background-image: url("./images2/hair3.png");
+  background-image: url("./images4/hair3.png");
   background-repeat: no-repeat;
   position: absolute;
   height: 700px;
   width: 400px;
 }
 .hair4 {
-  background-image: url("./images2/hair4.png");
+  background-image: url("./images4/hair4.png");
   background-repeat: no-repeat;
   position: absolute;
   height: 700px;
   width: 400px;
 }
 .hair5 {
-  background-image: url("./images2/hair5.png");
+  background-image: url("./images4/hair5.png");
   background-repeat: no-repeat;
   position: absolute;
   height: 700px;
@@ -237,14 +234,14 @@ button:hover {
 }
 
 .face1 {
-  background-image: url("./images2/face1.png");
+  background-image: url("./images4/face1.png");
   background-repeat: no-repeat;
   position: absolute;
   height: 700px;
   width: 400px;
 }
 .face2 {
-  background-image: url("./images2/face2.png");
+  background-image: url("./images4/face2.png");
   background-repeat: no-repeat;
   position: absolute;
   height: 700px;
