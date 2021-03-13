@@ -1,5 +1,13 @@
 body {
   background-color: rgb(73, 75, 184);
+  background-image: linear-gradient(
+    -10deg,
+    #3d4e81 0%,
+    #5753c9 58%,
+    #6e7ff3 100%
+  );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 #box {
   background-color: rgb(150, 152, 247);
@@ -9,7 +17,30 @@ body {
   height: 800px;
   width: 600px;
 }
+#linksBox {
+  text-align: center;
+  margin: auto;
+  opacity: 65%;
+  border-radius: 30px;
+}
 
+#linksBox a {
+  padding: 0px 5px;
+}
+#linksBox a img {
+  border-radius: 7px;
+  box-shadow: 0px 0px 2px 1px rgb(209, 196, 255);
+}
+#linksBox:hover {
+  opacity: 100%;
+}
+#heading {
+  font-size: 30px;
+  text-align: center;
+  color: snow;
+  text-shadow: 0px 4px 5px rgb(24, 25, 88);
+  font-family: "j'aime le poisson !", "Trebuchet ms";
+}
 #backdrop {
   top: 2em;
   margin: auto;
@@ -64,7 +95,7 @@ button:hover {
   position: absolute;
   height: 700px;
   width: 400px;
-  z-index: 4;
+  z-index: 2;
 }
 #hair {
   background-repeat: no-repeat;
@@ -94,6 +125,7 @@ button:hover {
   position: absolute;
   height: 700px;
   width: 400px;
+  z-index: 4;
 }
 .dress1 {
   background-image: url("./images4/dress1.png");
@@ -101,7 +133,7 @@ button:hover {
   position: absolute;
   height: 700px;
   width: 400px;
-  z-index: 2;
+  z-index: 4;
 }
 
 .dress2 {
@@ -110,7 +142,7 @@ button:hover {
   position: absolute;
   height: 700px;
   width: 400px;
-  z-index: 2;
+  z-index: 4;
 }
 .dress3 {
   background-image: url("./images4/dress3.png");
@@ -118,7 +150,7 @@ button:hover {
   position: absolute;
   height: 700px;
   width: 400px;
-  z-index: 2;
+  z-index: 4;
 }
 .dress4 {
   background-image: url("./images4/dress4.png");
@@ -126,7 +158,7 @@ button:hover {
   position: absolute;
   height: 700px;
   width: 400px;
-  z-index: 2;
+  z-index: 4;
 }
 .dress5 {
   background-image: url("./images4/dress5.png");
@@ -134,7 +166,7 @@ button:hover {
   position: absolute;
   height: 700px;
   width: 400px;
-  z-index: 2;
+  z-index: 4;
 }
 .dress6 {
   background-image: url("./images4/dress6.png");
@@ -142,7 +174,7 @@ button:hover {
   position: absolute;
   height: 700px;
   width: 400px;
-  z-index: 2;
+  z-index: 4;
 }
 .dress7 {
   background-image: url("./images4/dress7.png");
@@ -150,7 +182,7 @@ button:hover {
   position: absolute;
   height: 700px;
   width: 400px;
-  z-index: 2;
+  z-index: 4;
 }
 
 .shoes1 {
