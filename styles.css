@@ -64,6 +64,7 @@ button:hover {
   position: absolute;
   height: 700px;
   width: 400px;
+  z-index: 4;
 }
 #hair {
   background-repeat: no-repeat;
@@ -79,6 +80,14 @@ button:hover {
   width: 400px;
   z-index: 6;
 }
+#hat {
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+  z-index: 4;
+}
+
 .dress0 {
   background-image: url("./images4/dress0.png");
   background-repeat: no-repeat;
@@ -197,6 +206,13 @@ button:hover {
   width: 400px;
 }
 
+.hair0 {
+  background-image: url("./images4/hair0.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+}
 .hair1 {
   background-image: url("./images4/hair1.png");
   background-repeat: no-repeat;
