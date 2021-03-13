@@ -32,7 +32,7 @@ button {
   border-radius: 10px;
   padding: 5px 12px;
   font-size: larger;
-  transition: 0.2s linear;
+  transition: 0.1s linear;
 }
 button:hover {
   background-color: rgb(248, 252, 255);
