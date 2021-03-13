@@ -8,7 +8,7 @@ Illustrations and colouring done in Photoshop (not perfect yet).
 
 **The Lonely Moongirl is a character from a short picture book I wrote last year :)**
 Check it out here: 
-https://www.instagram.com/the_lonelymoongirl/
+https://www.instagram.com/the_lonelymoongirl/    
 https://www.amazon.co.uk/Lonely-Moongirl-Hazie/dp/1699887489
 
 
