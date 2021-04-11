@@ -89,6 +89,7 @@ button:hover {
   position: absolute;
   height: 700px;
   width: 400px;
+  z-index: 6;
 }
 #shoes {
   background-repeat: no-repeat;
@@ -116,7 +117,7 @@ button:hover {
   position: absolute;
   height: 700px;
   width: 400px;
-  z-index: 4;
+  z-index: 6;
 }
 
 .dress0 {
@@ -186,14 +187,14 @@ button:hover {
 }
 
 .shoes1 {
-  background-image: url("./images4/shoes1.png");
+  background-image: url("./images4/shoes1 2.png");
   background-repeat: no-repeat;
   position: absolute;
   height: 700px;
   width: 400px;
 }
 .shoes2 {
-  background-image: url("./images4/shoes2.png");
+  background-image: url("./images4/shoes2 2.png");
   background-repeat: no-repeat;
   position: absolute;
   height: 700px;
