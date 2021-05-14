@@ -10,8 +10,10 @@ Illustrations and colouring done in Photoshop (not perfect yet).
 Check it out here: 
 https://www.instagram.com/the_lonelymoongirl/    
 https://www.amazon.co.uk/Lonely-Moongirl-Hazie/dp/1699887489     
-
-         
+     
+Or read about the book on my new React site:
+https://hitchhikehazie.netlify.app/moongirl
+               
 I followed a tutorial, but aimed to make the code for recent HTML,CSS,JS versions. 
 I also refactored my code to be more concise and scalable.
 Basic tutorial from:
